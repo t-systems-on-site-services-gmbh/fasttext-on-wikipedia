@@ -7,3 +7,4 @@ Used software and data:
 ## commands
 - `fasttext skipgram -input data/dewiki-20220201-clean.txt -output de-wikipedia-skipgram-64 -dim 64`
 - `fasttext skipgram -input data/ft-train-de/train.txt -output de-wikipedia-skipgram-64 -dim 64 -autotune-validation data/ft-train-de/val.txt -autotune-duration 172800`
+- `fasttext skipgram -input data/ft-train-en/train.txt -output en-wikipedia-skipgram-64 -dim 64 -autotune-validation data/ft-train-en/val.txt -autotune-duration 345600`
