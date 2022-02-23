@@ -5,4 +5,4 @@ Used software and data:
 - Wikipedia text corpus from: [GermanT5/wikipedia2corpus](https://github.com/GermanT5/wikipedia2corpus)
 
 ## de skipgram 64d
-- `fasttext skipgram -input ../data/dewiki-20220201-clean.txt -output de-wikipedia-skipgram-64 -wordNgrams 64`
+- `fasttext skipgram -input ../data/dewiki-20220201-clean.txt -output de-wikipedia-skipgram-64 -dim 64`
